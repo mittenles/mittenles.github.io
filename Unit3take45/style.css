@@ -16,7 +16,7 @@
 #column1 {
   width: 631px;
   vertical-align: top;
-  margin-left: 100px;
+  margin-left: 115px;
   margin-top:360px;
   display: inline-block;
   background-color:#535a6c;
@@ -61,9 +61,9 @@ body {
   text-align:left;
   background-color:#535a6c;
   font-family: 'lato', Arial, 'Helvitica Neue', Helvetica, sans-serif;
-  font-size: 48px;
+  font-size: 45px;
   font-space: 5px;
-  line-height: 40px;
+  line-height: 75%;
   color: white;
 
 }
