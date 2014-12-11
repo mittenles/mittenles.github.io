@@ -1,16 +1,23 @@
 
 #page {
 	background-color:#535a6c;
+
+  background-image: url(logo.png);
+  background-repeat: no-repeat; 
+  background-position: left top;
+  background-size: 147px 44px;
+  padding-left: 0px;
+  padding-top:0px;
 }
 
-
+#header {
+  
+    
+}
 #main {
   background-color:#535a6c;
-  background: url(stripes.png); no-repeat; position: left top; height: 8px;
- 
+
 }
-
-
 
 
 #column1 {
@@ -67,12 +74,4 @@ body {
   color: white;
 
 }
-
-
-
-
-
-
-
-
 
