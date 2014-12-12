@@ -1,0 +1,68 @@
+
+#page {
+	background-color:#535a6c;
+}
+
+
+#main {
+  background-color:#535a6c;
+ 
+}
+
+
+
+#column1 {
+  width: 500px;
+  vertical-align: top;
+  padding-left: 100px;
+  display: inline-block;
+  background-color:#535a6c;
+
+}
+ hr {
+  border-color: #fd6e6e;
+  background-color:#fd6e6e;
+  width: 56px;
+  height: 3px;
+  top: -329px;
+  left: 0;
+}
+#column2 {
+  width: 500px;
+  vertical-align: top;
+  display: inline-block;
+  background-color:#535a6c;
+
+h1 {
+	font-family: 'lato', Arial, 'Helvitica Neue', Helvetica, sans-serif;
+	font-color:#FFFFFF;
+	font-size: 50px;
+	background-color:#535a6c;
+  height:850px;
+}
+
+body {
+  text-align:center;
+  background-color:#535a6c;
+  font-family: helvetica;
+}
+
+
+
+p {
+  font-family: 'lato', Arial, 'Helvitica Neue', Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+}
+input[type="PRESS"] 
+{
+  border-color: #FFFFFF;
+  font-color: #FFFFFF;
+  font-family: 'lato', Arial, 'Helvitica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+
+
+
