@@ -1,82 +1,63 @@
+#border {
+  background-image: url(stripes.png);
+  background-position: top left;
+  background-height:12px;
 
-#page {
-	background-color:#535a6c;
 }
 
-
-#main {
+#logo {
+  margin-top:12px;
+  background-color:#535a6c;
+  margin-left:115px;
   
-  background-color:#535a6c;
-  color: white;
+}
 
- 
-}
-#head {
-  background-color:#535a6c;
-  margin: 0px;
-  font-size: 45px;
-  font-family: 'lato', Arial, 'Helvitica Neue', Helvetica, sans-serif;
-  color: white;
-}
-hr {
+#hr {
   border-color: #fd6e6e;
   background-color:#fd6e6e;
   width: 56px;
   height: 3px;
- 
-  left: 0;
+  top: 150px;
+  left: 115;
 }
-
 
 #column1 {
-  width: 500px;
+  width: 631px;
   vertical-align: top;
-  padding-left: 100px;
-  display: inline-block;
-  background-color:#535a6c;
-  font-color: white;
-}
-#column2 {
-  width: 500px;
-  vertical-align: top;
-  display: inline-block;
-  background-color:#535a6c;
+  margin-left: 115px;
+  margin-top:360px;
+  display: inline-block;  
 }
 
-  p {
-  position: aboslute;
-  top: 330px;
-  padding-left:100px;
+p {
   font-family: 'lato', Arial, 'Helvitica Neue', Helvetica, sans-serif;
-  font-size: 45px;
-  letter-spacing: 2px;
-  font-color: red;
+  font-size: 35px;
+  color: white;
   text-align: left;
 }
+ 
+ 
 
-h1 {
-	font-family: 'lato', Arial, 'Helvitica Neue', Helvetica, sans-serif;
-	font-color:#FFFFFF;
-	font-size: 50px;
-	background-color:#535a6c;
-  height:850px;
+#column2 {
+  width: 631px;
+  vertical-align: bottom;
+  display: inline-block;
+  position: absolute;
+  top: 130px;
+  right: 0px;
+  
 }
+
 
 body {
-  text-align:center;
+  text-align:left;
   background-color:#535a6c;
-  font-family: helvetica;
-}
-
-}
-input[type="PRESS"] 
-{
-  border-color: #FFFFFF;
-  font-color: #FFFFFF;
   font-family: 'lato', Arial, 'Helvitica Neue', Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 45px;
+  font-space: 5px;
+  line-height: 75%;
+  color: white;
 }
-
 
 
 
