@@ -13,13 +13,14 @@
 	font-family: 'Lobster', cursive;
 	font-size: 3.06em;
 letter-spacing: 2px;
+word-spacing: 80em;
 margin-left: 0;
 height: 300px;
-text-align: right;
+text-align: center;
 text-align: bottom;
 background-color: #ffffff;
 opacity:0.80;
-width: 40%;
+
 
 
 }
