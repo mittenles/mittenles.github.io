@@ -1,22 +1,38 @@
 #background{
 	background-image: url("cookies.jpg");
 	background-size: cover;
-	max-width: 100%
+	background-position: center;
+	min-width: 1024px;
+	min-height: 100%;
+	max-height: 100%;
+	width: 100%;
 	height: auto;
+	/*height: auto;
+	margin: 0px;
+	padding-left:0px;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+
+
 }
+/* this is not working. but suppressing this removed the image entirely*/
+/*#body{
+	background-image: url("cookies.jpg");
+}*/
 
 p.comfort{
 	color: #888888;
 	font-family: 'Lobster', cursive;
 font-size: 5.06em;
 letter-spacing: 2px;
-background-color: black;
-opacity: 90%;
-/*padding-top: 5px;*/
+background-color: white;
+opacity: .8;
+padding-top: 5px;*/
 padding-bottom: 10px;
 vertical-align: center;
 text-align: center;
-margin-top: 200px;
+/*margin-top: 200px;*/
 margin-left: 0px;
 margin-right: 0px;
 
