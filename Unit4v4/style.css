@@ -1,0 +1,26 @@
+#background{
+	background-image: url("cookies.jpg");
+	background-size: cover;
+	max-width: 100%
+	height: auto;
+}
+
+p.comfort{
+	color: #888888;
+	font-family: 'Lobster', cursive;
+font-size: 5.06em;
+letter-spacing: 2px;
+background-color: black;
+opacity: 90%;
+/*padding-top: 5px;*/
+padding-bottom: 10px;
+vertical-align: center;
+text-align: center;
+margin-top: 200px;
+margin-left: 0px;
+margin-right: 0px;
+
+}
+
+
+
