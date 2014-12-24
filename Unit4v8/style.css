@@ -44,7 +44,7 @@ li{
 	color: white;
 	font-family: 'Lobster', cursive;
 	font-size: 1.0em;*/
-	padding: 30px; /*playing with this in terms of % seems to impact alignment. may be able to justify*/
+	padding: 20px; /*playing with this in terms of % seems to impact alignment. may be able to justify*/
 	text-align: justify;
 
 }
@@ -55,7 +55,7 @@ a{
 	display:inline-block;
 	font-family: 'Lobster', cursive;
 	font-size: 1.7em;
-	padding:8px 8px 8px 8px;
+	padding:2px;
 }
 
 a:hover{
