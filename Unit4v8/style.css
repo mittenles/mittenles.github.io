@@ -27,47 +27,54 @@
 
 #nav{
 	list-style-type: none;
-	display: inline;
+	float: center; 
+	/*display: inline;
 	text-decoration: none;
 	color: white;
-	font-family: 'Lobster', cursive;
-	font-size: 1.9em;
+	font-family: 'Lobster', cursive;*/
+	/*font-size: 1.9em;*/
 }
 
 li{
-	list-style-type: none;
+	/*list-style-type: none;
+	float: center; */
 	display: inline;
-	text-decoration: none;
+	/*text-decoration: none;
 	color: white;
 	font-family: 'Lobster', cursive;
-	font-size: 1.0em;
-	padding:20px;
+	font-size: 1.0em;*/
+	padding: 30px;
+	text-align: justify;
 }
 
 a{
 	text-decoration: none;
 	color: white;
 	font-family: 'Lobster', cursive;
-	font-size: 1.0em;
+	font-size: 1.7em;
 	padding:8px 8px 8px 8px;
 }
 
+a:hover{
+	color: #B80000;
+	background-color: white;
+}
 
 p.comfort{
 	color: #888888;
 	font-family: 'Lobster', cursive;
-font-size: 5.76em;
-letter-spacing: 2px;
-/*background-color: white;
-opacity: .30;*/
-padding-top: 5px;
-padding-bottom: 10px;
-padding-left: 5px;
-vertical-align: center; /*changed from center*/
-text-align: center; /*changed from center*/
-/*margin-top: 200px;*/
-margin-left: 0px;
-margin-right: 0px;
+	font-size: 5.76em;
+	letter-spacing: 2px;
+	/*background-color: white;
+	opacity: .30;*/
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	vertical-align: center; 
+	text-align: center; 
+	margin-top: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 p.content{
@@ -76,7 +83,7 @@ p.content{
 	font-weight: bold;
 	font-size: 2.0em;
 	/*padding-top: 5px;*/
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	vertical-align: top;
 	text-align: center;
 	padding-left: 10px;
@@ -93,7 +100,7 @@ p.content{
 	vertical-align: center;
 	text-align: center;
 	/*padding: 5px;*/
-	margin: 0;
+	margin-bottom: 5px;
 	/*margin: 20px;*/
 	/*background-position: bottom 25px;*/
 	background-color: white;
