@@ -15,7 +15,7 @@
 	left: 0;
 }
 
-/*#header{
+#header{
 	width: auto;
 	height: 20px;
 	vertical-align: top;
@@ -23,14 +23,7 @@
 	margin: 0;
 	background-color: white;
 	opacity: .3;
-}*/
-
-
-
-/* this is not working. but suppressing this removed the image entirely*/
-/*#body{
-	background-image: url("cookies.jpg");
-}*/
+}
 
 p.comfort{
 	color: #888888;
