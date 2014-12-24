@@ -7,9 +7,6 @@
 	max-height: 100%;
 	width: 100%;
 	height: auto;
-	/*height: auto;
-	margin: 0px;
-	padding-left:0px;*/
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -27,27 +24,14 @@
 
 #nav{
 	list-style-type: none;
-	/*float: center;*/
 	text-align: center;
-	/*display: inline;
-	text-decoration: none;
-	color: white;
-	font-family: 'Lobster', cursive;*/
-	/*font-size: 1.9em;*/
 }
 
 li{
-	/*list-style-type: none;
-	float: center; */
 	display: inline;
-	/*text-decoration: none;
-	color: white;
-	font-family: 'Lobster', cursive;
-	font-size: 1.0em;*/
 	padding: 4%; /*playing with this in terms of % seems to impact alignment. may be able to justify. impacts alignment of nav elements for certain*/
 	width: 50%; /*no visible impact on centering nav items */
 	text-align: center;
-
 }
 
 a{
@@ -75,21 +59,17 @@ p.comfort{
 	opacity: .30;*/
 	padding-top: 5px;
 	padding-bottom: 10px;
-	padding-left: 0px;
 	vertical-align: center; 
 	text-align: center; 
 	margin-top: 30px;
-	margin-left: 0px;
 	margin-right: 0px;
 }
 
 p.content{
-	color: #383838; /*#181818;*/
-	/*font-family: 'Source Sans Pro', sans-serif;*/
+	color: #181818;
 	font-family: 'Lato', sans-serif;
 	font-weight: bolder;
 	font-size: 2.0em;
-	/*padding-top: 5px;*/
 	padding-bottom: 5px;
 	vertical-align: top;
 	text-align: center;
@@ -97,9 +77,6 @@ p.content{
 	padding-top: 2px;
 	margin-left: 0px;
 	margin-right: 0px;
-	/*background-size: 200px 200px;*/
-	/*background-color: white;*/
-	/*opacity: .3;*/
 }
 
 #content{
@@ -107,11 +84,8 @@ p.content{
 	height: auto;
 	vertical-align: center;
 	text-align: center;
-	text-shadow: 1px -.5px #101010;
-	/*padding: 5px;*/
+	text-shadow: .5px -.5px #181818;
 	margin-bottom: 5px;
-	/*margin: 20px;*/
-	/*background-position: bottom 25px;*/
 	background-color: white;
 	opacity: .3;
 }
