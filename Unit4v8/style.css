@@ -17,7 +17,7 @@
 
 #header{
 	width: auto;
-	height: 20px;
+	height: 1.9em;
 	vertical-align: top;
 	text-align: center;
 	margin: 0;
@@ -27,8 +27,8 @@
 
 #nav{
 	list-style-type: none;
-	float: center; 
-	text-align: justify;
+	/*float: center;*/
+	text-align: center;
 	/*display: inline;
 	text-decoration: none;
 	color: white;
@@ -44,23 +44,26 @@ li{
 	color: white;
 	font-family: 'Lobster', cursive;
 	font-size: 1.0em;*/
-	padding: 20px; /*playing with this in terms of % seems to impact alignment. may be able to justify*/
-	text-align: justify;
+	padding: 4%; /*playing with this in terms of % seems to impact alignment. may be able to justify. impacts alignment of nav elements for certain*/
+	width: 50%; /*no visible impact on centering nav items */
+	text-align: center;
 
 }
 
 a{
 	text-decoration: none;
-	color: white;
+	color: #B80000;
+	text-shadow: .5px -.5px #181818;
 	display:inline-block;
 	font-family: 'Lobster', cursive;
-	font-size: 1.7em;
-	padding:2px;
+	font-size: 1.8em;
+	padding: 2px 2px 2px 2px;
 }
 
 a:hover{
-	color: #B80000;
-	background-color: white;
+	color: white;
+	/*background-color: white;
+	opacity: .9;*/
 }
 
 p.comfort{
@@ -72,29 +75,31 @@ p.comfort{
 	opacity: .30;*/
 	padding-top: 5px;
 	padding-bottom: 10px;
-	padding-left: 5px;
+	padding-left: 0px;
 	vertical-align: center; 
 	text-align: center; 
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: 0px;
 	margin-right: 0px;
 }
 
 p.content{
-	color: #181818;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: bold;
+	color: #383838; /*#181818;*/
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
 	font-size: 2.0em;
 	/*padding-top: 5px;*/
 	padding-bottom: 5px;
 	vertical-align: top;
 	text-align: center;
 	padding-left: 10px;
+	padding-top: 2px;
 	margin-left: 0px;
 	margin-right: 0px;
 	/*background-size: 200px 200px;*/
-	background-color: white;
-	opacity: .4%;
+	/*background-color: white;*/
+	/*opacity: .3;*/
 }
 
 #content{
@@ -102,6 +107,7 @@ p.content{
 	height: auto;
 	vertical-align: center;
 	text-align: center;
+	text-shadow: 1px -.5px #101010;
 	/*padding: 5px;*/
 	margin-bottom: 5px;
 	/*margin: 20px;*/
